@@ -13,12 +13,121 @@
   @import "./unit";
   @import "./function";
   @import "./g";
-	.m-head{
+	.g-head{
 
 	}
-	.m-body{
-		font-size: .2rem;
+	.g-body{
+		background-image: url("../img/wall2.jpg");
+		height: 100%;
+		width: 100%;
 	}
-	.m-foot{
+	.g-foot{
 		
+	}
+	.m-start{
+		&:before{  
+	    content: "";  
+	    display: table;  
+	    /*或者display: inline-block;*/ 
+    }
+    .u-icon-blt{
+	    &.b4{
+				background-image: url("../img/4.png");
+				background-repeat: no-repeat;
+				background-size: 100%;
+				height: 5rem;
+				width: 5rem;
+				padding: .3rem;
+				padding-top: .2rem;
+				margin: 0 auto;
+				margin-top: 3rem;
+				span{
+					display: inline-block;
+					line-height: 1.2;
+					font-size: 1rem;
+					transform:rotate(0deg);
+				}
+				input{
+					background: rgba(255,255,255,0);
+					width: 100%;
+					border: 0;
+					outline: 0;
+				}
+			}
+		}
+	}
+	.m-blt-list{
+		&:before{  
+	    content: "";  
+	    display: table;  
+	    /*或者display: inline-block;*/ 
+    } 
+		.u-blt{
+			margin-top: .2rem;
+		}
+		.u-icon-blt{
+			display: inline-block;
+			background-repeat: no-repeat;
+			background-size: 100%;
+			color: #333;
+			margin-left: .2rem;
+			&.b1{
+				background-image: url("../img/1.png");
+				height: 2rem;
+				width: 2rem;
+				padding: .1rem;
+				padding-top: .8rem;
+				span{
+					display: inline-block;
+					line-height: 1.5;
+					font-size: .3rem;
+					transform:rotate(0deg);
+				}
+			}
+			&.b2{
+				background-image: url("../img/2.png");
+				height: 2.4rem;
+				width: 2.4rem;
+				padding: .25rem;
+				padding-top: .8rem;
+				span{
+					display: inline-block;
+					line-height: 1.5;
+					font-size: .3rem;
+					transform:rotate(-15deg);
+				}
+			}
+			&.b3{
+				background-image: url("../img/3.png");
+				height: 2rem;
+				width: 2rem;
+				padding: .1rem;
+				padding-top: .8rem;
+				span{
+					display: inline-block;
+					line-height: 1.5;
+					font-size: .3rem;
+					transform:rotate(0deg);
+				}
+			}
+			&.b4{
+				background-image: url("../img/4.png");
+				height: 2rem;
+				width: 2rem;
+				padding: .1rem;
+				padding-top: .8rem;
+				span{
+					display: inline-block;
+					line-height: 1.5;
+					font-size: .3rem;
+					transform:rotate(0deg);
+				}
+				input{
+					background: rgba(255,255,255,0);
+					width: 100%;
+					border: 0;
+					outline: 0;
+				}
+			}
+		}
 	}
