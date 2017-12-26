@@ -1,0 +1,23 @@
+// out: null
+.u-btn{
+	display: inline-block;
+  font-family: "Microsoft Yahei";
+  cursor: pointer;
+}
+.btn(@color:#333,@bg:#efefef,@bd_c:#666){
+  color: @color;
+  background: @bg;
+  border: 1px solid @bd_c;
+}
+.u-btn-main{
+  .btn();
+  &:hover{
+    .btn(#000,#ccc,#000);
+  }
+}
+.u-btn-small{
+  .btn();
+  &:hover{
+    .btn(#000,#ccc,#000);
+  }
+}
