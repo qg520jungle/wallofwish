@@ -1,0 +1,1 @@
+$(function(){var t=getUrlData("blt");t=decodeURI(t),t&&($(".j-start-blt").html("TA想:<br/>"+t),t.length<=11||(t.length>11?$(".j-start-blt").addClass("f-sz20"):t.length>20?$(".j-start-blt").addClass("f-sz12"):$(".j-start-blt").addClass("f-sz10"))),$(".j-to-act").on("click",function(){location.href="./act.html"})});
